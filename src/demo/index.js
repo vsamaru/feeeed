@@ -44,11 +44,11 @@ export function Logs() {
     console.log("grouped logs");
   }
 
-  try {
-    nonExistentFunc();
-  } catch (e) {
-    console.error(e);
-  }
+//   try {
+//     nonExistentFunc();
+//   } catch (e) {
+//     console.error(e);
+//   }
   console.timeEnd("Render time");
 }
 
